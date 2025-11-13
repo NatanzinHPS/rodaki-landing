@@ -54,29 +54,6 @@ A aplicação estará disponível em: **http://localhost:4200**
 
 ---
 
-## Estrutura do Projeto
-
-```
-rodaki-landing/
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   └── landing-page/
-│   │   │       ├── landing-page.component.ts      # Lógica do componente
-│   │   │       ├── landing-page.component.html    # Template HTML
-│   │   │       └── landing-page.component.scss    # Estilos SCSS
-│   │   ├── app.component.ts                       # Componente raiz
-│   │   └── app.config.ts                          # Configuração do app 
-│   ├── styles.scss                                 # Estilos globais + Tailwind
-│   └── index.html                                  # HTML principal
-├── tailwind.config.js                              # Configuração do Tailwind
-├── angular.json                                    # Configuração do Angular
-├── package.json                                    # Dependências do projeto
-└── README.md                                       # Este arquivo
-```
-
----
-
 ## Tecnologias Utilizadas
 
 ### **Frontend**
