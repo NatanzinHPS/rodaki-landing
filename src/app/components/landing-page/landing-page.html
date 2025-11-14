@@ -10,7 +10,10 @@
         </div>
 
         <div class="hidden md:flex items-center gap-8">
-          <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+          <a
+            href="#features"
+            class="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+          >
             Funcionalidades
           </a>
           <a href="#tech" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">
@@ -21,10 +24,18 @@
             Planos
           </a>
           -->
-          <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-            Contato
+          <a
+            href="#about"
+            class="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+          >
+            Sobre Nós
           </a>
-          <a href="https://github.com/NatanzinHPS/StartUp-One" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-6 py-2.5 rounded-xl hover:bg-blue-700 transition-all duration-300 font-semibold shadow-md hover:shadow-lg">
+          <a
+            href="https://github.com/NatanzinHPS/StartUp-One"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-blue-600 text-white px-6 py-2.5 rounded-xl hover:bg-blue-700 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+          >
             Começar Agora
           </a>
         </div>
@@ -35,74 +46,99 @@
       </div>
 
       @if (menuOpen) {
-        <div class="md:hidden mt-4 pb-4 animate-fade-in">
-          <div class="flex flex-col gap-4">
-            <a href="#features" (click)="closeMenu()" class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
-              Funcionalidades
-            </a>
-            <a href="#tech" (click)="closeMenu()" class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
-              Tecnologias
-            </a>
-            <!--
+      <div class="md:hidden mt-4 pb-4 animate-fade-in">
+        <div class="flex flex-col gap-4">
+          <a
+            href="#features"
+            (click)="closeMenu()"
+            class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+          >
+            Funcionalidades
+          </a>
+          <a
+            href="#tech"
+            (click)="closeMenu()"
+            class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+          >
+            Tecnologias
+          </a>
+          <!--
             <a href="#pricing" (click)="closeMenu()" class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
               Planos
             </a>
             -->
-            <a href="#contact" (click)="closeMenu()" class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
-              Contato
-            </a>
-            <a href="https://github.com/NatanzinHPS/StartUp-One" target="_blank" rel="noopener noreferrer" (click)="closeMenu()" class="bg-blue-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md text-center">
-              Começar Agora
-            </a>
-          </div>
+          <a
+            href="#about"
+            (click)="closeMenu()"
+            class="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+          >
+            Sobre Nós
+          </a>
+          <a
+            href="https://github.com/NatanzinHPS/StartUp-One"
+            target="_blank"
+            rel="noopener noreferrer"
+            (click)="closeMenu()"
+            class="bg-blue-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md text-center"
+          >
+            Começar Agora
+          </a>
         </div>
+      </div>
       }
     </nav>
   </header>
 
-  <section class="pt-32 pb-20 px-4 sm:px-6">
+<section class="pt-32 pb-20 px-4 sm:px-6">
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-8">
           <div class="inline-block">
             <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
-              Revolucione seu transporte fretado
+              Otimize seu transporte coletivo
             </span>
           </div>
-          
+
           <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-gray-900">
-            Gestão de 
-            <span class="text-blue-600">Transporte Fretado</span>
+            Gestão de
+            <span class="text-blue-600">Transporte Coletivo</span>
             Simplificada
           </h1>
-          
+
           <p class="text-xl text-gray-600 leading-relaxed">
-            Plataforma completa para motoristas gerenciarem passageiros, rotas, pagamentos e relatórios. 
-            Tudo em um só lugar, com segurança e praticidade.
+            Plataforma web intuitiva para centralizar comunicação, controle de presença e pagamentos. 
+            Diga adeus à desorganização do WhatsApp e tenha tudo automatizado em um só lugar.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="https://github.com/NatanzinHPS/StartUp-One" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl group">
+            <a
+              href="https://github.com/NatanzinHPS/StartUp-One"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl group"
+            >
               Experimente Grátis
               <i class="bi bi-chevron-right ml-2"></i>
             </a>
-            <button class="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl hover:border-blue-600 hover:text-blue-600 transition-all duration-300 font-bold text-lg">
+            <button
+              class="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl hover:border-blue-600 hover:text-blue-600 transition-all duration-300 font-bold text-lg"
+            >
               Ver Demonstração
             </button>
           </div>
 
           <div class="flex items-center gap-8 pt-4">
             <div>
-              <div class="text-3xl font-bold text-gray-900">500+</div>
-              <div class="text-sm text-gray-600">Motoristas Ativos</div>
+              <div class="text-3xl font-bold text-gray-900">100%</div>
+              <div class="text-sm text-gray-600">Processos Automatizados</div>
             </div>
             <div>
-              <div class="text-3xl font-bold text-gray-900">5k+</div>
-              <div class="text-sm text-gray-600">Passageiros</div>
+              <div class="text-3xl font-bold text-gray-900">0</div>
+              <div class="text-sm text-gray-600">Comprovantes Perdidos</div>
             </div>
             <div>
-              <div class="text-3xl font-bold text-gray-900">98%</div>
-              <div class="text-sm text-gray-600">Satisfação</div>
+              <div class="text-3xl font-bold text-gray-900">24/7</div>
+              <div class="text-sm text-gray-600">Disponível</div>
             </div>
           </div>
         </div>
@@ -114,30 +150,44 @@
               <div class="flex items-center gap-4 p-4 bg-green-50 rounded-xl">
                 <i class="bi bi-check-circle text-green-600 text-2xl"></i>
                 <div>
-                  <div class="font-semibold text-gray-900">Check-in Confirmado</div>
-                  <div class="text-sm text-gray-600">Gabriella - Rota Faculdade Sorocaba</div>
+                  <div class="font-semibold text-gray-900">Presença Confirmada</div>
+                  <div class="text-sm text-gray-600">João Gabriel - Rota Universidade</div>
                 </div>
               </div>
-              
-              <div class="grid grid-cols-3 gap-4">
+
+              <div class="grid grid-cols-2 gap-4">
                 <div class="bg-blue-50 p-4 rounded-xl text-center">
-                  <div class="text-2xl font-bold text-blue-600">28</div>
-                  <div class="text-xs text-gray-600 mt-1">Presentes</div>
-                </div>
-                <div class="bg-red-50 p-4 rounded-xl text-center">
-                  <div class="text-2xl font-bold text-red-600">2</div>
-                  <div class="text-xs text-gray-600 mt-1">Ausentes</div>
+                  <div class="text-2xl font-bold text-blue-600">42</div>
+                  <div class="text-xs text-gray-600 mt-1">Pagamentos Confirmados</div>
                 </div>
                 <div class="bg-yellow-50 p-4 rounded-xl text-center">
-                  <div class="text-2xl font-bold text-yellow-600">3</div>
-                  <div class="text-xs text-gray-600 mt-1">Pendentes</div>
+                  <div class="text-2xl font-bold text-yellow-600">5</div>
+                  <div class="text-xs text-gray-600 mt-1">Pagamentos Pendentes</div>
+                </div>
+              </div>
+
+              <div class="p-4 bg-gray-50 rounded-xl">
+                <div class="text-sm font-semibold text-gray-900 mb-3">Controle de Presença - Hoje</div>
+                <div class="grid grid-cols-3 gap-2">
+                  <div class="text-center">
+                    <div class="text-lg font-bold text-green-600">25</div>
+                    <div class="text-xs text-gray-600">Presentes</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-lg font-bold text-red-600">5</div>
+                    <div class="text-xs text-gray-600">Ausentes</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-lg font-bold text-blue-600">30</div>
+                    <div class="text-xs text-gray-600">Total</div>
+                  </div>
                 </div>
               </div>
 
               <div class="p-4 bg-blue-600 text-white rounded-xl shadow-lg">
-                <div class="text-sm opacity-90 mb-1">Receita Mensal</div>
-                <div class="text-3xl font-bold">R$ 8.940,00</div>
-                <div class="text-sm opacity-75 mt-2">↑ 12% vs mês anterior</div>
+                <div class="text-sm opacity-90 mb-1">Receita do Mês</div>
+                <div class="text-3xl font-bold">R$ 7.250,00</div>
+                <div class="text-sm opacity-75 mt-2">Todos os comprovantes centralizados</div>
               </div>
             </div>
           </div>
@@ -153,19 +203,24 @@
           Funcionalidades <span class="text-blue-600">Poderosas</span>
         </h2>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Tudo que você precisa para gerenciar seu transporte fretado com eficiência e profissionalismo
+          Tudo que você precisa para gerenciar seu transporte fretado com eficiência e
+          profissionalismo
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         @for (feature of features; track feature.title) {
-          <div class="group p-8 rounded-xl border-2 border-gray-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 bg-white">
-            <div class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform shadow-md">
-              <i [class]="feature.icon + ' text-3xl'"></i>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-gray-900">{{ feature.title }}</h3>
-            <p class="text-gray-600 leading-relaxed">{{ feature.description }}</p>
+        <div
+          class="group p-8 rounded-xl border-2 border-gray-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 bg-white"
+        >
+          <div
+            class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform shadow-md"
+          >
+            <i [class]="feature.icon + ' text-3xl'"></i>
           </div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">{{ feature.title }}</h3>
+          <p class="text-gray-600 leading-relaxed">{{ feature.description }}</p>
+        </div>
         }
       </div>
     </div>
@@ -178,17 +233,23 @@
           Tecnologias <span class="text-blue-600">Modernas</span>
         </h2>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Desenvolvido com as melhores tecnologias do mercado para garantir performance e escalabilidade
+          Desenvolvido com as melhores tecnologias do mercado para garantir performance e
+          escalabilidade
         </p>
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         @for (tech of technologies; track tech.name) {
-          <div class="group">
-            <div [class]="tech.color + ' p-6 rounded-xl text-white font-bold text-center hover:scale-105 transition-transform shadow-lg hover:shadow-xl'">
-              {{ tech.name }}
-            </div>
+        <div class="group">
+          <div
+            [class]="
+              tech.color +
+              ' p-6 rounded-xl text-white font-bold text-center hover:scale-105 transition-transform shadow-lg hover:shadow-xl'
+            "
+          >
+            {{ tech.name }}
           </div>
+        </div>
         }
       </div>
     </div>
@@ -284,59 +345,65 @@
   <section class="py-20 px-4 sm:px-6">
     <div class="container mx-auto">
       <div class="bg-blue-600 rounded-3xl p-12 text-center text-white shadow-2xl">
-        <h2 class="text-4xl sm:text-5xl font-bold mb-6">
-          Pronto para Transformar sua Gestão?
-        </h2>
+        <h2 class="text-4xl sm:text-5xl font-bold mb-6">Pronto para Transformar sua Gestão?</h2>
         <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-          Junte-se a centenas de motoristas que já estão otimizando seu transporte fretado com o Rodaki
+          Junte-se a centenas de motoristas que já estão otimizando seu transporte fretado com o
+          Rodaki
         </p>
-        <a href="https://github.com/NatanzinHPS/StartUp-One" target="_blank" rel="noopener noreferrer" class="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all">
+        <a
+          href="https://github.com/NatanzinHPS/StartUp-One"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all"
+        >
           Começar Gratuitamente →
         </a>
       </div>
     </div>
   </section>
 
-  <footer id="contact" class="bg-gray-900 text-white py-12 px-4 sm:px-6">
+<section id="about" class="py-20 px-4 sm:px-6 bg-white">
     <div class="container mx-auto">
-      <div class="grid md:grid-cols-4 gap-8 mb-8">
-        <div>
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-md">
-              <img src="assets/LogoNoBG.png" alt="Rodaki Logo" class="w-8 h-8 object-contain" />
-            </div>
-            <span class="text-2xl font-bold">Rodaki</span>
-          </div>
-          <p class="text-gray-400">
-            Gestão inteligente de transporte fretado
-          </p>
-        </div>
-        
-        <div>
-          <h4 class="font-bold mb-4">Produto</h4>
-          <ul class="space-y-2 text-gray-400">
-            <li><a href="#" class="hover:text-white transition-colors">Funcionalidades</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Preços</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Segurança</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="font-bold mb-4">Empresa</h4>
-          <ul class="space-y-2 text-gray-400">
-            <li><a href="#" class="hover:text-white transition-colors">Sobre</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="font-bold mb-4">Suporte</h4>
-          <ul class="space-y-2 text-gray-400">
-            <li><a href="#" class="hover:text-white transition-colors">Contato</a></li>
-          </ul>
-        </div>
+      <div class="text-center mb-16">
+        <h2 class="text-4xl sm:text-5xl font-bold mb-4 text-gray-900">
+          Sobre a <span class="text-blue-600">Rodaki</span>
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Uma solução inovadora para otimizar a gestão de transporte coletivo privado, 
+          conectando passageiros e motoristas de forma eficiente e organizada.
+        </p>
       </div>
 
-      <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+      <div class="grid md:grid-cols-2 gap-16 items-center max-w-5xl mx-auto">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">O Problema</h3>
+          <p class="text-gray-600 leading-relaxed mb-6">
+            O transporte coletivo privado enfrenta dificuldades na comunicação, gestão de pagamentos 
+            e controle de presença, com processos manuais realizados geralmente pelo WhatsApp. 
+            Isso causa desorganização, perda de informações e falta de confiabilidade.
+          </p>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Nossa Solução</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Desenvolvemos uma aplicação web simples e intuitiva que centraliza e automatiza processos 
+            antes feitos manualmente, com funcionalidades como cadastro de usuários, confirmação de 
+            presença, envio de comprovantes de pagamento e painel de gestão completo.
+          </p>
+        </div>
+
+        <div class="relative">
+          <div
+            class="relative bg-white rounded-3xl shadow-2xl p-8 border border-gray-100 flex justify-center items-center"
+          >
+            <img src="assets/LogoNoBG.png" alt="Rodaki Logo" class="w-2/3 h-auto object-contain" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-gray-900 text-white py-8 px-4 sm:px-6">
+    <div class="container mx-auto">
+      <div class="text-center text-gray-400">
         <p>© 2025 Rodaki - Facens</p>
       </div>
     </div>
