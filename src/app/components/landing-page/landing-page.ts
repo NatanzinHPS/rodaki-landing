@@ -64,12 +64,11 @@ export class LandingPageComponent {
   ];
 
   technologies: Tech[] = [
-    { name: 'Angular 20', color: 'bg-red-600' },
-    { name: 'Spring Boot 3', color: 'bg-green-600' },
-    { name: 'MySQL 8', color: 'bg-blue-700' },
-    { name: 'Docker', color: 'bg-blue-500' },
-    { name: 'MinIO', color: 'bg-red-500' },
-    { name: 'Google Maps', color: 'bg-yellow-500' }
+  { name: 'React Native', color: 'bg-blue-500' },
+  { name: 'Expo', color: 'bg-gray-800' },
+  { name: 'TypeScript', color: 'bg-blue-700' },
+  { name: 'Firebase', color: 'bg-yellow-500' },
+  { name: 'Google Maps', color: 'bg-orange-500' }
   ];
 
   plans: Plan[] = [
